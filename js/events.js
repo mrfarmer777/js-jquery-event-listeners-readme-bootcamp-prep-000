@@ -16,7 +16,10 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('input:first')
+  $('input:first-of-type').on('keydown',function(){
+    
+    
+  })
   
   
 }
