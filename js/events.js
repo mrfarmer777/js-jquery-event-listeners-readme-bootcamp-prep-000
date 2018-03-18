@@ -23,7 +23,7 @@ function frameIt(){
 
 function pressIt(){
   $('input:first-of-type').on('keydown',function(e){
-    if(e.which===103){
+    if(e.which===71){
       alert('you done pressed a g');
     }
     
