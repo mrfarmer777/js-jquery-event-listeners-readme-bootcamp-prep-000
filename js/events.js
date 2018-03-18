@@ -16,11 +16,19 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('input:first-of-type').on('keydown',function(){
+  $('input:first-of-type').on('keydown',function(e){
+    if(e.which===103){
+      alert('you done pressed a g');
+    }
     
-    
-  })
-  
+  });
   
 }
+
+function submitIt(){
+  $('form').on('submit',function(){
+    alert('Your form is going to be submitted now.');
+  })
+}
+
 });
